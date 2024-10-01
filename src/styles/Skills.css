@@ -1,0 +1,51 @@
+.skills-section {
+  background-color: #1c1c1c; /* Dark background */
+  padding: 60px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  margin: 40px 0;
+  text-align: center;
+  color: #fff; /* Light text for contrast */
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 30px; /* Space between cards */
+}
+
+.skill-card {
+  background: #2c2c2c; /* Slightly lighter than section background */
+  border-radius: 12px; /* Rounded corners */
+  padding: 30px;
+  color: #fff; /* Light text color */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+  text-align: center; /* Center align text in cards */
+  position: relative; /* For positioning */
+  overflow: hidden; /* Hide overflow for pseudo-elements */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+.skill-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5); /* Increased shadow on hover */
+}
+
+.skill-icon {
+  font-size: 2.5rem; /* Increase icon size */
+  margin-bottom: 15px; /* Spacing below icons */
+  color: #00bfff; /* Icon color */
+}
+
+h2 {
+  color: #00bfff; /* Color for section title */
+  margin-bottom: 30px;
+  font-size: 2.5rem; /* Larger title */
+  text-transform: uppercase; /* Uppercase for emphasis */
+}
+
+.skill-card h3 {
+  margin-top: 10px; /* Spacing above titles */
+  font-size: 1.5rem; /* Title font size */
+  font-weight: 600; /* Medium weight for emphasis */
+}

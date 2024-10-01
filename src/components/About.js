@@ -105,7 +105,7 @@ function About() {
             <button onClick={() => setModalIsOpen(true)} className="btn btn-primary">
               Preview Resume
             </button>
-            <a href="/ayu.pdf" className="btn btn-secondary" download onClick={handleDownload}>
+            <a href="/Ayush_s_Resume_Frontend_dev.pdf" className="btn btn-secondary" download onClick={handleDownload}>
               Download Resume
             </a>
           </div>

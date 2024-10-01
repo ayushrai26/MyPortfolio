@@ -2,6 +2,7 @@ import React from 'react';
 import '../styles/Projects.css';
 import Movie from '../images/Movie.png';
 import task from '../images/Task.png'
+import meme from '../images/meme.png'
 function Projects() {
   return (
     <div className="projects-section">
@@ -52,7 +53,7 @@ function Projects() {
 
         {/* Project 3 */}
         <div className="project-card">
-          <img src="https://via.placeholder.com/300" alt="Blog Platform" className="project-image" />
+          <img src={meme} alt="Blog Platform" className="project-image" />
           <div className="project-content">
             <h3>Project 3: Meme Generator App</h3>
             <p>Designed and developed a dynamic Meme Generator App using React, leveraging state management to facilitate
@@ -63,8 +64,8 @@ function Projects() {
               <span className="tech">HTML,CSS</span>
             </div>
             <div className="project-links">
-              <a href="https://project3-live-demo.com" target="_blank" rel="noopener noreferrer">Live Demo</a>
-              <a href="https://github.com/yourusername/project3" target="_blank" rel="noopener noreferrer">Source Code</a>
+              <a href="https://meme-appp-ayush-rais-projects-22ebbee0.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a href="https://github.com/ayushrai26/MemeAppp" target="_blank" rel="noopener noreferrer">Source Code</a>
             </div>
           </div>
         </div>

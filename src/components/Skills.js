@@ -1,7 +1,10 @@
 import React from 'react';
 import { FaCode, FaProjectDiagram, FaCogs,FaTimes,FaHtml5,FaCss3 ,FaJs,FaReact,FaGit} from 'react-icons/fa';
 import '../styles/Skills.css';
-
+import { DiMongodb } from "react-icons/di";
+import { FaNode } from "react-icons/fa6";
+import { DiErlang } from "react-icons/di"
+import { FaTools } from "react-icons/fa";
 const skillsData = [
   {
     title: 'HTML',
@@ -47,6 +50,22 @@ const skillsData = [
     title: 'REST APIs',
     icon: <FaCogs />,
   },
+  {
+    title:'MONGO DB',
+    icon: <DiMongodb />,
+  },
+  {
+    title:'Express',
+    icon: <DiErlang />,
+  },
+  {
+    title:'Node',
+    icon: <FaNode/>,
+  },
+  {
+    title:'Postman',
+    icon:<FaTools/>,
+  }
 ];
 
 function Skills() {

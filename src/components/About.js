@@ -58,11 +58,11 @@ function About() {
         <div className="about-text">
           <h1>About Me</h1>
           <p>
-            Hello! I am <strong>Ayush Rai</strong>, a passionate Frontend Developer dedicated to crafting engaging and user-friendly web experiences. With a strong foundation in modern web technologies, I specialize in transforming innovative ideas into seamless digital realities.
+            Hello! I am <strong>Ayush Rai</strong>, a passionate Fullstack MERN Developer dedicated to crafting engaging and user-friendly web experiences. With a strong foundation in modern web technologies, I specialize in transforming innovative ideas into seamless digital realities.
           </p>
           <h2>My Journey</h2>
           <p>
-          My journey into the world of frontend development began with a fascination for technology and design. Growing up, I was always curious about how websites worked and enjoyed creating simple web pages. This passion led me to explore the vast realm of web development, where I discovered the power of transforming ideas into interactive digital experiences.
+          My journey into the world of Fullstack MERN development began with a fascination for technology and design. Growing up, I was always curious about how websites worked and enjoyed creating simple web pages. This passion led me to explore the vast realm of web development, where I discovered the power of transforming ideas into interactive digital experiences.
           </p>
           <h2>My Approach</h2>
           <p>
@@ -78,7 +78,7 @@ function About() {
           </p>
           <h2>Let’s Connect</h2>
           <p>
-            I am actively seeking opportunities to collaborate on innovative projects and contribute to a team that values creativity and excellence. If you are looking for a dedicated frontend developer who is passionate about building stunning web applications, I would love to hear from you!
+            I am actively seeking opportunities to collaborate on innovative projects and contribute to a team that values creativity and excellence. If you are looking for a dedicated Fullstack MERN developer who is passionate about building stunning web applications, I would love to hear from you!
           </p>
 
           {/* Key Highlights Section */}

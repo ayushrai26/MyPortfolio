@@ -3,6 +3,7 @@ import '../styles/Projects.css';
 import Movie from '../images/Movie.png';
 import task from '../images/Task.png'
 import meme from '../images/meme.png'
+import ecom from '../images/ecom.png'
 function Projects() {
   return (
     <div className="projects-section">
@@ -50,7 +51,31 @@ function Projects() {
             </div>
           </div>
         </div>
-
+           {/* Project 2 */}
+        <div className="project-card">
+          <img src={ecom} alt="Portfolio Website" className="project-image" />
+          <div className="project-content">
+            <h3>Project 2: E-Commerce Website ShopperStore</h3>
+            <p>Developed a full-stack e-commerce website using the MERN (MongoDB, Express.js, React.js, Node.js) stack, featuring user authentication, product management, cart functionality, and a seamless shopping experience.</p>
+            <div className="tech-stack">
+              
+              <span className="tech">HTML</span>
+              <span className="tech">CSS</span>
+              <span className="tech">JavaScript</span>
+              <span className="tech">React</span>
+              <span className="tech">Node</span>
+              <span className="tech">Express</span>
+              <span className="tech">MongoDB</span>
+              <span className="tech">JWT</span>
+              
+            </div>
+            <div className="project-links">
+              <a href="https://ayushshopperstore.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a href="https://github.com/ayushrai26/ShopperStore-frontend-" target="_blank" rel="noopener noreferrer">Source Code(Frontend)</a>
+              <a href="https://github.com/ayushrai26/ShopperStore-backend-" target="_blank" rel="noopener noreferrer">Source Code(backend)</a>
+            </div>
+          </div>
+        </div>
         {/* Project 3 */}
         <div className="project-card">
           <img src={meme} alt="Blog Platform" className="project-image" />

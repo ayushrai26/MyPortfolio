@@ -10,9 +10,9 @@ function Home() {
       {/* Left Section */}
       <div className="left-section">
         <h1 className="typing-effect" >Hi, I'm Ayush Rai</h1>
-        <h2 className="title">Frontend Developer</h2>
+        <h2 className="title">FullStack MERN Developer</h2>
         <p>
-        Problem-solving Frontend Developer with a knack for building responsive, interactive user interfaces. 
+        Problem-solving FullStack Developer with a knack for building responsive, interactive user interfaces. 
         Let's tackle challenges together and create amazing digital experiences
         </p>
         <div className="buttons">

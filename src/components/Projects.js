@@ -51,11 +51,11 @@ function Projects() {
             </div>
           </div>
         </div>
-           {/* Project 2 */}
+           {/* Project 3 */}
         <div className="project-card">
           <img src={ecom} alt="Portfolio Website" className="project-image" />
           <div className="project-content">
-            <h3>Project 2: E-Commerce Website ShopperStore</h3>
+            <h3>Project 3: E-Commerce Website ShopperStore</h3>
             <p>Developed a full-stack e-commerce website using the MERN (MongoDB, Express.js, React.js, Node.js) stack, featuring user authentication, product management, cart functionality, and a seamless shopping experience.</p>
             <div className="tech-stack">
               
@@ -76,11 +76,11 @@ function Projects() {
             </div>
           </div>
         </div>
-        {/* Project 3 */}
+        {/* Project 4 */}
         <div className="project-card">
           <img src={meme} alt="Blog Platform" className="project-image" />
           <div className="project-content">
-            <h3>Project 3: Meme Generator App</h3>
+            <h3>Project 4: Meme Generator App</h3>
             <p>Designed and developed a dynamic Meme Generator App using React, leveraging state management to facilitate
             real-time text customization and meme rendering..</p>
             <div className="tech-stack">

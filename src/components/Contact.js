@@ -61,15 +61,13 @@ function Contact() {
 
       {/* Social Media Links */}
       <div className="social-links">
-        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+        <a href="https://www.linkedin.com/in/ayush-rai-ar2612/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
           <FaLinkedin size={30} />
         </a>
-        <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer" title="GitHub">
+        <a href="https://github.com/ayushrai26" target="_blank" rel="noopener noreferrer" title="GitHub">
           <FaGithub size={30} />
         </a>
-        <a href="https://x.com/AyushRai2612" target="_blank" rel="noopener noreferrer" title="Twitter">
-          <FaTwitter size={30} />
-        </a>
+        
         <a href="mailto:iush.ar2601@gmail.com" title="Mail">
           <FaEnvelope size={30} />
         </a>

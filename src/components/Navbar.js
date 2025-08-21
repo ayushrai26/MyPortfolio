@@ -1,25 +1,38 @@
-import React from 'react';
-import '../styles/Navbar.css'; // Import the Navbar CSS
-import { Link } from 'react-router-dom';
-import Logo from '../images/prog.png'
+import React, { useState, useEffect } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import "../styles/Navbar.css"; 
+
 function Navbar() {
+  const [menuActive, setMenuActive] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  // Scroll effect
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className="navbar">
-      {/* Logo Section */}
+    <nav className={`navbar ${scrolled ? "scrolled" : ""}`}>
       <div className="logo">
-      <img src={Logo} alt="Ayush's Logo" className="logo-image" />
-        <a href="#home">Ayush.</a>
+        <a href="/">Ayush Rai</a>
       </div>
 
-      {/* Navigation Links */}
-      <ul className="nav-links">
-      <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/skills">Skills</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/contact">Contact</Link>
-      </ul>
-    </div>
+      <div className={`nav-links ${menuActive ? "active" : ""}`}>
+        <a href="/" onClick={() => setMenuActive(false)}>Home</a>
+        <a href="/skills" onClick={() => setMenuActive(false)}>Skills</a>
+        <a href="/projects" onClick={() => setMenuActive(false)}>Projects</a>
+        <a href="/contact" onClick={() => setMenuActive(false)}>Contact</a>
+        <a href="/contact" className="btn-nav" onClick={() => setMenuActive(false)}>Hire Me</a>
+      </div>
+
+      <div className="menu-icon" onClick={() => setMenuActive(!menuActive)}>
+        {menuActive ? <FaTimes /> : <FaBars />}
+      </div>
+    </nav>
   );
 }
 

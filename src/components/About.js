@@ -7,7 +7,7 @@ import Modal from 'react-modal';
 
 
 
-// Custom styles for the modal
+
 const modalStyles = {
   content: {
     top: '50%',
@@ -24,7 +24,7 @@ const modalStyles = {
   },
 };
 
-// Ensure you set the modal app element for accessibility
+
 Modal.setAppElement('#root');
 
 function About() {
@@ -33,28 +33,28 @@ function About() {
   const [feedbackSubmitted, setFeedbackSubmitted] = useState(false);
 
   const handleDownload = () => {
-    // Increment download count here (this could be an API call)
-    console.log('Resume downloaded'); // Replace with actual tracking logic
+    
+    console.log('Resume downloaded'); 
   };
 
   const handleFeedbackSubmit = (e) => {
     e.preventDefault();
     setFeedbackSubmitted(true);
-    console.log('Feedback:', feedback); // Replace with API call to submit feedback
-    // Clear feedback after submission
+    console.log('Feedback:', feedback); 
+    
     setFeedback('');
   };
 
   return (
     <div className="about-section">
-      {/* Main About Container */}
+    
       <div className="about-content">
-        {/* Image Section */}
+        
         <div className="about-image">
           <img src={Image} alt="Profile" className="profile-pic" />
         </div>
 
-        {/* Text Section */}
+      
         <div className="about-text">
           <h1>About Me</h1>
           <p>
@@ -81,7 +81,7 @@ function About() {
             I am actively seeking opportunities to collaborate on innovative projects and contribute to a team that values creativity and excellence. If you are looking for a dedicated Fullstack MERN developer who is passionate about building stunning web applications, I would love to hear from you!
           </p>
 
-          {/* Key Highlights Section */}
+          
           <div className="highlights">
             <div className="highlight">
               <FaLaptopCode className="highlight-icon" />
@@ -100,7 +100,7 @@ function About() {
             </div>
           </div>
 
-          {/* Call to Action Buttons */}
+          
           <div className="cta-buttons">
             <button onClick={() => setModalIsOpen(true)} className="btn btn-primary">
               Preview Resume
@@ -112,11 +112,11 @@ function About() {
         </div>
       </div>
 
-      {/* Modal for Preview */}
+  
       <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} style={modalStyles}>
         <h2>Resume Preview</h2>
         <iframe
-          src='/ayu.pdf'// Ensure this path is correct
+          src='/ayu.pdf'
           title="Resume Preview"
           style={{ width: '100%', height: '400px', border: 'none' }}
         ></iframe>

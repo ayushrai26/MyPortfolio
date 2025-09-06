@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Project 1: Job Tracker Application",
+    "description": "Built a Job Tracker web application using the MERN stack to help users manage job applications efficiently. Implemented features like application status tracking, profile management, and job search with filters for a seamless user experience. Designed a responsive and interactive UI with real-time updates to enhance productivity and simplify job-hunting workflow.",
+    "image": "/images/Screenshot (105).png",
+    "techStack": ["React", "Node", "MongoDB", "Tailwind CSS"],
+    "links": {
+      "demo": "https://job-tracker-frontend-qwvg.vercel.app/",
+      "frontend": "https://github.com/ayushrai26/JobTracker_Frontend"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Project 2: Movie Search App",
+    "description": "Engineered a responsive movie search application using JavaScript and React, integrating the OMDB API for real-time data retrieval.",
+    "image": "/images/Movie.png",
+    "techStack": ["React", "JavaScript", "OMDB API", "HTML, CSS"],
+    "links": {
+      "demo": "https://ayushrai26.github.io/Movie-Search-appp/",
+      "frontend": "https://github.com/ayushrai26/Movie-Search-appp"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Project 3: Taskify App",
+    "description": "Engineered a feature-rich task scheduling app, Taskify, using HTML, CSS, and JavaScript, incorporating a sleek UI and interactive components to improve task organization and productivity.",
+    "image": "/images/Task.png",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "links": {
+      "demo": "https://ayushrai26.github.io/Taskify-Project/",
+      "frontend": "https://github.com/ayushrai26/Taskify-Project"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Project 4: E-Commerce Website ShopperStore",
+    "description": "Developed a full-stack e-commerce website using the MERN (MongoDB, Express.js, React.js, Node.js) stack, featuring user authentication, product management, cart functionality, and a seamless shopping experience.",
+    "image": "/images/ecom.png",
+    "techStack": ["HTML", "CSS", "JavaScript", "React", "Node", "Express", "MongoDB", "JWT"],
+    "links": {
+      "demo": "https://ayushshopperstore.vercel.app/",
+      "frontend": "https://github.com/ayushrai26/ShopperStore-frontend-",
+      "backend": "https://github.com/ayushrai26/ShopperStore-backend-"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Project 5: Meme Generator App",
+    "description": "Designed and developed a dynamic Meme Generator App using React, leveraging state management to facilitate real-time text customization and meme rendering.",
+    "image": "/images/meme.png",
+    "techStack": ["React", "JavaScript", "HTML, CSS"],
+    "links": {
+      "demo": "https://meme-appp-ayush-rais-projects-22ebbee0.vercel.app/",
+      "frontend": "https://github.com/ayushrai26/MemeAppp"
+    }
+  }
+]

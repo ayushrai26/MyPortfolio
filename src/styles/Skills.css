@@ -1,51 +1,51 @@
 .skills-section {
-  background-color: #1c1c1c; /* Dark background */
+  background-color: #1c1c1c; 
   padding: 60px 20px;
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   margin: 40px 0;
   text-align: center;
-  color: #fff; /* Light text for contrast */
+  color: #fff; 
 }
 
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
-  gap: 30px; /* Space between cards */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  gap: 30px; 
 }
 
 .skill-card {
-  background: #2c2c2c; /* Slightly lighter than section background */
-  border-radius: 12px; /* Rounded corners */
+  background: #2c2c2c; 
+  border-radius: 12px; 
   padding: 30px;
-  color: #fff; /* Light text color */
-  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
-  text-align: center; /* Center align text in cards */
-  position: relative; /* For positioning */
-  overflow: hidden; /* Hide overflow for pseudo-elements */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  color: #fff;
+  transition: transform 0.3s, box-shadow 0.3s; 
+  text-align: center; 
+  position: relative;
+  overflow: hidden; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
 }
 
 .skill-card:hover {
-  transform: translateY(-5px); /* Lift effect on hover */
-  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5); /* Increased shadow on hover */
+  transform: translateY(-5px); 
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5); 
 }
 
 .skill-icon {
-  font-size: 2.5rem; /* Increase icon size */
-  margin-bottom: 15px; /* Spacing below icons */
-  color: #00bfff; /* Icon color */
+  font-size: 2.5rem; 
+  margin-bottom: 15px; 
+  color: #00bfff; 
 }
 
 h2 {
-  color: #00bfff; /* Color for section title */
+  color: #00bfff; 
   margin-bottom: 30px;
-  font-size: 2.5rem; /* Larger title */
-  text-transform: uppercase; /* Uppercase for emphasis */
+  font-size: 2.5rem; 
+  text-transform: uppercase; 
 }
 
 .skill-card h3 {
-  margin-top: 10px; /* Spacing above titles */
-  font-size: 1.5rem; /* Title font size */
-  font-weight: 600; /* Medium weight for emphasis */
+  margin-top: 10px;
+  font-size: 1.5rem; 
+  font-weight: 600; 
 }

@@ -1,4 +1,4 @@
-/* Navbar Container */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -14,7 +14,7 @@
   transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-/* Logo Section */
+
 .logo {
   display: flex;
   align-items: center;
@@ -41,7 +41,7 @@
   transform: scale(1.1);
 }
 
-/* Navigation Links */
+
 .nav-links {
   display: flex;
   gap: 40px;
@@ -84,7 +84,7 @@
   left: 0%;
 }
 
-/* Hire Me / Contact Me Button */
+
 .nav-links .btn-nav {
   background-color: #00bfff;
   color: #fff;
@@ -101,7 +101,7 @@
   transform: scale(1.1);
 }
 
-/* Hamburger Menu Icon */
+
 .menu-icon {
   display: none;
   font-size: 2rem;
@@ -114,13 +114,13 @@
   transform: scale(1.1);
 }
 
-/* Navbar Scroll Effect */
+
 .navbar.scrolled {
   background: rgba(10, 14, 18, 0.95);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
 }
 
-/* Tablet Responsive */
+
 @media screen and (max-width: 1024px) {
   .navbar {
     padding: 0 30px;
@@ -141,7 +141,7 @@
   }
 }
 
-/* Mobile Responsive */
+
 @media screen and (max-width: 768px) {
   .menu-icon {
     display: block;
@@ -175,7 +175,7 @@
   }
 }
 
-/* Small Phone Responsive */
+
 @media screen and (max-width: 480px) {
   .nav-links a {
     font-size: 1.2rem;

@@ -4,7 +4,7 @@
 This is my personal portfolio website built with React.  
 It showcases my projects, skills, experience, and contact information.  
 
-You can view it live here 👉 [Live Demo](https://my-portfolio-two-alpha-23.vercel.app/)
+You can view it live here 👉 [Live Demo](https://my-portfolio-theta-wine-52.vercel.app/)
 
 ---
 

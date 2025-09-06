@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FaAward, FaLaptopCode, FaLightbulb } from 'react-icons/fa';
 import '../styles/About.css';
-import Image from '../images/my.jpeg'; // Make sure this image path is correct
+ 
 
 import Modal from 'react-modal';
 
@@ -51,7 +51,7 @@ function About() {
       <div className="about-content">
         
         <div className="about-image">
-          <img src={Image} alt="Profile" className="profile-pic" />
+          <img src="/images/my.jpeg" alt="Profile" className="profile-pic" />
         </div>
 
       

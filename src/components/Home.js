@@ -1,6 +1,6 @@
-import React from 'react';
+
 import '../styles/Home.css'; 
-import ProfileImage from '../images/myy.jpeg'; 
+
 
 import {Link} from 'react-router-dom'
 
@@ -26,7 +26,7 @@ function Home() {
 
     
       <div className="right-section">
-        <img src={ProfileImage} alt="Profile" className="profile-image" />
+        <img src="/images/myy.jpeg" alt="Profile" className="profile-image" />
       </div>
     </div>
   );
